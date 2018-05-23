@@ -1,0 +1,59 @@
+# Compiled source #
+###################
+*.pyc
+
+# Node dependencies #
+#####################
+node_modules
+
+# Log files #
+#############
+*.log
+*.log.*
+
+# supervisord #
+###############
+supervisord*
+
+# generated css and fonts #
+#################
+core/static/core/styles/css/*.css
+core/static/core/styles/fonts/fontawesome-webfont.*
+
+# Misc. #
+#########
+test_coverage
+test_results
+test_reports
+jupiter/local_settings.py*
+.coverage
+*,cover
+htmlcov
+
+# Static Files #
+########
+static_files/
+
+# Mac #
+########
+._*
+*.DS_Store
+
+# Vim #
+########
+*.swp
+
+#Minified JS
+*.annotated.js
+*-min.js
+
+#jetbrains IDEs
+.idea
+
+#create_shell_report file for personal use only
+create_shell_report.sh
+
+# when using emacs
+[#]*[#]
+.\#*
+
